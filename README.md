@@ -20,3 +20,8 @@ https://spark.apache.org/docs/2.1.0/sql-programming-guide.html
 https://repo1.maven.org/maven2/
 
 # Python
+
+
+# Bash
+Finding a file : 
+```sudo find / -iname "dist-packages"```
