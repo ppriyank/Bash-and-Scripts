@@ -25,3 +25,6 @@ https://repo1.maven.org/maven2/
 # Bash
 Finding a file : 
 ```sudo find / -iname "dist-packages"```
+
+Size of a folder (on hdfs): 
+```hadoop fs -du -s -h /user/ppathak/```
