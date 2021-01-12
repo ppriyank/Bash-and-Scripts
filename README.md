@@ -28,3 +28,6 @@ Finding a file :
 
 Size of a folder (on hdfs): 
 ```hadoop fs -du -s -h /user/ppathak/```
+
+Size of a fodler 
+```du -s -h ./```
