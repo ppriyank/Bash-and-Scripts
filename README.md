@@ -13,6 +13,12 @@ javac -cp  :folder_of_all_jars/* abcd.java
 java -cp ":folder_of_all_jars/*" abcd
 
 ```
+
+Path of java library 
+```
+ /usr/libexec/java_home -V
+ ```
+ 
 ### Scala-java
 https://spark.apache.org/docs/2.1.0/sql-programming-guide.html
 
