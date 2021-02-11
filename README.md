@@ -31,3 +31,11 @@ Size of a folder (on hdfs):
 
 Size of a fodler 
 ```du -s -h ./```
+
+# link of Commands 
+
+```which java```
+Pointing to actual path : 
+```
+ls -l `which java`
+```
