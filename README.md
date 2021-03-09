@@ -29,14 +29,38 @@ https://repo1.maven.org/maven2/
 
 
 # Bash
-Finding a file : 
+
+### Finding a file : 
 ```sudo find / -iname "dist-packages"```
 
-Size of a folder (on hdfs): 
+#### Size of a folder (on hdfs): 
 ```hadoop fs -du -s -h /user/ppathak/```
 
-Size of a fodler 
+### Size of a fodler 
 ```du -s -h ./```
+
+### Number of files in a folder: 
+```
+find /etc -type f | wc -l
+```
+### Problems with mounting :
+```
+pgrep -lf sshfs
+kill -9 <pid_of_sshfs_process>
+sudo umount -f <mounted_dir>
+```
+
+### ssh-ing using password & tunnels : 
+```
+sshpass -p <password here> ssh -f pp1953@gw.hpc.nyu.edu -L 5556:greene.hpc.nyu.edu:22 -N
+sshpass -p <password here> ssh -p 5556 pp1953@127.0.0.1
+```
+Do not use sshpass for sshfs
+```
+sshfs -p 5556 pp1953@127.0.0.1:/home/pp1953/reid ~/NYU/project2
+```
+
+
 
 # link of Commands 
 
