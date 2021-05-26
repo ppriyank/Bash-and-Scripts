@@ -40,6 +40,15 @@ python -c "import tools.data_manager as data_manager; dataset = data_manager.ini
 ```
 chmod 600 ~/.ssh/config
 ```
+### Correct ~/.ssh/config 
+
+```
+Host *
+  IgnoreUnknown UseKeychain
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+```
 
 ### Finding a file : 
 ```sudo find / -iname "dist-packages"```
