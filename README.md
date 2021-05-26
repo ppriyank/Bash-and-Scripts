@@ -27,8 +27,19 @@ https://repo1.maven.org/maven2/
 
 # Python
 
+### Running mutiple python commands w/o shell
+
+```
+python -c "import tools.data_manager as data_manager; dataset = data_manager.init_dataset(name="cuhk01")"
+```
 
 # Bash
+
+### Correct configuration of .ssh/config 
+
+```
+chmod 600 ~/.ssh/config
+```
 
 ### Finding a file : 
 ```sudo find / -iname "dist-packages"```
