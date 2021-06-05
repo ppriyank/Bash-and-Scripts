@@ -34,6 +34,12 @@ python -c "import tools.data_manager as data_manager; dataset = data_manager.ini
 ```
 
 # Bash
+### Installing from anywhere
+```
+sudo spctl --master-disable
+```
+then disable `sudo spctl --master-enable`
+
 
 ### Correct configuration of .ssh/config 
 
