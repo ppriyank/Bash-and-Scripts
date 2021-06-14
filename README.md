@@ -33,6 +33,18 @@ https://repo1.maven.org/maven2/
 python -c "import tools.data_manager as data_manager; dataset = data_manager.init_dataset(name="cuhk01")"
 ```
 
+### If/else in a list
+
+```
+[i for i in sentence if ....]
+```
+```
+[i if ... else ... for i in original_prices]
+```
+
+
+
+
 # Bash
 ### Installing from anywhere
 ```
