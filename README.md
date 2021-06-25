@@ -108,3 +108,9 @@ Pointing to actual path :
 ```
 ls -l `which java`
 ```
+
+
+
+# Latex
+Fonts: https://tex.stackexchange.com/questions/56008/different-sizes-of-font-available-in-table   
+
