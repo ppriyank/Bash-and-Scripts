@@ -5,6 +5,10 @@ hadoop fs -cat /path/to/the/file >> out.put.txt
 ```
 
 # java: 
+### Finding all jars
+```
+sudo find ./ -iname "*.jar"
+```
 
 ### mutiple jars
 ```
