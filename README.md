@@ -118,3 +118,12 @@ ls -l `which java`
 # Latex
 Fonts: https://tex.stackexchange.com/questions/56008/different-sizes-of-font-available-in-table   
 
+
+# Bash profile
+
+```
+conda activate pathak3
+alias session="tmux new -s pathak; tmux a -t pathak"
+alias gpus="watch nvidia-smi"
+alias refresh='clear; reset; source ~/.bash_profile'
+```
