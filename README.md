@@ -128,5 +128,7 @@ Fonts: https://tex.stackexchange.com/questions/56008/different-sizes-of-font-ava
 conda activate pathak3
 alias session="tmux new -s pathak; tmux a -t pathak"
 alias gpus="watch nvidia-smi"
-alias refresh='clear; reset; source ~/.bash_profile'
+alias refresh='clear; reset; source ~/.bash_profile; source ~/.bashrc'
 ```
+
+`refresh`
