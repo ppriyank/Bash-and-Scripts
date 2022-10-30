@@ -121,6 +121,9 @@ Fonts: https://tex.stackexchange.com/questions/56008/different-sizes-of-font-ava
 
 # Bash profile
 
+`vim ~/.bashrc`   
+`vim ~/.bash_profile`
+
 ```
 conda activate pathak3
 alias session="tmux new -s pathak; tmux a -t pathak"
