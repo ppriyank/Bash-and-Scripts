@@ -34,7 +34,7 @@ https://repo1.maven.org/maven2/
 ### Running mutiple python commands w/o shell
 
 ```
-python -c "import tools.data_manager as data_manager; dataset = data_manager.init_dataset(name="cuhk01")"
+echo "set enable-bracketed-paste off" >> ~/.inputrc
 ```
 
 ### If/else in a list
