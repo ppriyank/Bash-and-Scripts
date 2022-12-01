@@ -102,6 +102,22 @@ Do not use sshpass for sshfs
 sshfs -p 5556 pp1953@127.0.0.1:/home/pp1953/reid ~/NYU/project2
 ```
 
+Check status of each GPU `checkstatus.sh`  
+
+```
+truncate -s 0 status.txt
+
+while read HOST ; 
+do 
+    ssh $HOST "echo $HOST >> status.txt ; nvidia-smi >> status.txt" < /dev/null ; 
+done < servers.txt
+```
+`server.sh`  
+```
+gpu001
+gpu002
+```
+
 # Github
 https://github.com/ppriyank/Github-Tutorial/blob/master/README.md
 
