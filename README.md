@@ -59,6 +59,8 @@ echo "set enable-bracketed-paste off" >> ~/.inputrc
 
 ### GPU status 
 ```
+python -c "import torch; print(torch.cuda.is_available()); print(torch.version.cuda) ; print(torch.__version__); print(torch.cuda.device_count())"
+
 python -c "import torch; print(torch.__file__); print(torch.__version__); print(torch.cuda.device_count())"
 ```
 
@@ -145,6 +147,13 @@ gpu002
 
 # Github
 https://github.com/ppriyank/Github-Tutorial/blob/master/README.md
+
+
+
+
+
+
+
 
 # link of Commands 
 
