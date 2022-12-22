@@ -4,6 +4,11 @@ Concatenating partitions into one
 hadoop fs -cat /path/to/the/file >> out.put.txt
 ```
 
+
+
+
+
+
 # java: 
 ### Finding all jars
 ```
@@ -29,6 +34,12 @@ https://spark.apache.org/docs/2.1.0/sql-programming-guide.html
 ### All jars:
 https://repo1.maven.org/maven2/
 
+
+
+
+
+
+
 # Python
 
 ### Running mutiple python commands w/o shell
@@ -45,6 +56,13 @@ echo "set enable-bracketed-paste off" >> ~/.inputrc
 ```
 [i if ... else ... for i in original_prices]
 ```
+
+### GPU status 
+```
+python -c "import torch; print(torch.__file__); print(torch.__version__); print(torch.cuda.device_count())"
+```
+
+
 
 
 
@@ -118,6 +136,13 @@ gpu001
 gpu002
 ```
 
+
+
+
+
+
+
+
 # Github
 https://github.com/ppriyank/Github-Tutorial/blob/master/README.md
 
@@ -131,8 +156,15 @@ ls -l `which java`
 
 
 
+
+
 # Latex
 Fonts: https://tex.stackexchange.com/questions/56008/different-sizes-of-font-available-in-table   
+
+
+
+
+
 
 
 # Bash profile
@@ -148,3 +180,5 @@ alias refresh='clear; reset; source ~/.bash_profile; source ~/.bashrc'
 ```
 
 `refresh`
+
+
