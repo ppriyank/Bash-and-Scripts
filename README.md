@@ -182,6 +182,7 @@ Fonts: https://tex.stackexchange.com/questions/56008/different-sizes-of-font-ava
 `vim ~/.bash_profile`
 
 ```
+conda config --set auto_activate_base false
 conda activate pathak3
 alias session="tmux new -s pathak; tmux a -t pathak"
 alias gpus="watch nvidia-smi"
