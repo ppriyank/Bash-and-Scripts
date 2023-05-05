@@ -138,7 +138,10 @@ gpu001
 gpu002
 ```
 
-
+### Scp ignoring files already present 
+```
+rsync -av --ignore-existing ucf:/home/c3-0/datasets/MSRVTT/MSRVTT/* ./
+```
 
 
 
