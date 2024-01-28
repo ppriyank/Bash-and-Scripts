@@ -206,3 +206,8 @@ do
     ssh  -o StrictHostKeyChecking=no -oBatchMode=yes -i ~/.ssh/cluster priyank@$each
 done 
 ```
+
+## SLRUM script via job id 
+```
+scontrol write batch_script 128104 -
+```
