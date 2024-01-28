@@ -195,3 +195,14 @@ alias refresh='clear; reset; source ~/.bash_profile; source ~/.bashrc'
 `refresh`
 
 
+# Ssh-ing over all the IPs
+```
+x=`nmap -sP 10.173.214.0/24 | grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' `
+echo $x
+
+for each in $x
+do
+    echo  $each
+    ssh  -o StrictHostKeyChecking=no -oBatchMode=yes -i ~/.ssh/cluster priyank@$each
+done 
+```
